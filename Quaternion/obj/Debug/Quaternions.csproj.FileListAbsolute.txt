@@ -1,0 +1,14 @@
+C:\Users\Janik.Hofmann\source\repos\Quaternion\Quaternion\bin\Debug\Quaternion.exe.config
+C:\Users\Janik.Hofmann\source\repos\Quaternion\Quaternion\bin\Debug\Quaternion.exe
+C:\Users\Janik.Hofmann\source\repos\Quaternion\Quaternion\bin\Debug\Quaternion.pdb
+C:\Users\Janik.Hofmann\source\repos\Quaternion\Quaternion\obj\Debug\Quaternions.csprojAssemblyReference.cache
+C:\Users\Janik.Hofmann\source\repos\Quaternion\Quaternion\obj\Debug\Quaternions.csproj.CoreCompileInputs.cache
+C:\Users\Janik.Hofmann\source\repos\Quaternion\Quaternion\obj\Debug\Quaternion.exe
+C:\Users\Janik.Hofmann\source\repos\Quaternion\Quaternion\obj\Debug\Quaternion.pdb
+C:\Users\Janik.Hofmann\Documents\GitHub\Quaternion\Quaternion\bin\Debug\Quaternion.exe.config
+C:\Users\Janik.Hofmann\Documents\GitHub\Quaternion\Quaternion\bin\Debug\Quaternion.exe
+C:\Users\Janik.Hofmann\Documents\GitHub\Quaternion\Quaternion\bin\Debug\Quaternion.pdb
+C:\Users\Janik.Hofmann\Documents\GitHub\Quaternion\Quaternion\obj\Debug\Quaternions.csprojAssemblyReference.cache
+C:\Users\Janik.Hofmann\Documents\GitHub\Quaternion\Quaternion\obj\Debug\Quaternions.csproj.CoreCompileInputs.cache
+C:\Users\Janik.Hofmann\Documents\GitHub\Quaternion\Quaternion\obj\Debug\Quaternion.exe
+C:\Users\Janik.Hofmann\Documents\GitHub\Quaternion\Quaternion\obj\Debug\Quaternion.pdb
