@@ -26,11 +26,29 @@ namespace Quaternions
             return new Quaternion(x, y, z, w);
         }
 
+        public static Quaternion operator !(Quaternion a) {
+            return new Quaternion(-a.x, -a.y, -a.z, -a.w);
+        }
+
+        public static Quaternion operator-(Quaternion a, Quaternion b) {
+            return a + !b;
+        }
+
         public static Quaternion operator*(Quaternion a, Quaternion b) {
             double x = (a.x* b.x) - (a.y* b.y) - (a.z* b.z) - (a.w* b.w);
             double y = (a.x* b.y) + (a.y* b.x) + (a.z* b.w) - (a.w* b.z);
             double z = (a.x* b.z) - (a.y* b.w) + (a.z* b.x) + (a.w* b.y);
             double w = (a.x* b.w) + (a.y* b.z) - (a.z* b.y) + (a.w* b.x);
+
+            return new Quaternion(x, y, z, w);
+        }
+
+        public static Quaternion operator /(Quaternion a, Quaternion b) {
+            double nenner = b.x*b.x + b.y*b.y + b.z*b.z + b.w*b.w;
+            double x = ((a.x* b.x) + (a.y*b.y) + (a.z* b.z) + (a.w* b.w))/nenner;
+            double y = (-(a.x* b.y) + (a.y*b.x) + (a.z* b.w) - (a.w* b.z))/nenner;
+            double z = (-(a.x* b.z) - (a.y*b.w) + (a.z* b.x) + (a.w* b.y))/nenner;
+            double w = (-(a.x* b.w) + (a.y*b.z) - (a.z* b.y) + (a.w* b.x))/nenner;
 
             return new Quaternion(x, y, z, w);
         }
