@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{DAC72572-9383-4A8A-9CC3-28E78F4D2C84}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Quaternion</RootNamespace>
-    <AssemblyName>Quaternion</AssemblyName>
+    <RootNamespace>MathLib</RootNamespace>
+    <AssemblyName>MathLib</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Matrix4X4.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Quaternion.cs" />
+    <Compile Include="Vector2D.cs" />
+    <Compile Include="Vector3D.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

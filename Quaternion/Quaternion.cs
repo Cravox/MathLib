@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Quaternions
+namespace MathLib
 {
     class Quaternion
     {
@@ -54,7 +54,7 @@ namespace Quaternions
         }
 
         public string ToString() {
-            return "("+ this.x + ", " + this.y + "i, " + this.z + "j, " + this.w + "k)";
+            return String.Format("({0}, {1}i, {2}j, {3}k)",this.x, this.y, this.z, this.w);
         }
     }
 }
